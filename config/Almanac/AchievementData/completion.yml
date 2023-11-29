@@ -1,0 +1,21 @@
+unique_name: completion
+display_name: $almanac_achievement_completion
+sprite_name: almanac_crown_gold
+description: $almanac_achievement_completion_desc
+lore: $almanac_completion_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_resistant</color> VS <color=orange>$almanac_frost</color>
+
+  $almanac_raise_skill_experience_by <color=orange>100</color>%
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: TotalAchievements
+goal: 0
+resistance_modifier: Frost = Resistant
+modifier: RaiseSkills
+modifier_value: 2
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

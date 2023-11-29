@@ -1,0 +1,21 @@
+unique_name: ranger
+display_name: $almanac_achievement_ranger
+sprite_name: almanac_arrow
+description: $almanac_achievement_ranger_desc
+lore: $almanac_ranger_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_fire</color>
+
+  $almanac_increase_projectile_damage_by <color=orange>5</color>
+stop_message: $almanac_projectile_default
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Arrows
+goal: 0
+resistance_modifier: Fire = Weak
+modifier: RangedDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

@@ -1,0 +1,21 @@
+unique_name: spark_2
+display_name: $almanac_achievement_spark III
+sprite_name: Thunderstone
+description: $almanac_achievement_spark_desc
+lore: $almanac_spark_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_lightning</color>
+
+  $almanac_increase_lightning_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: EikthyrKills
+goal: 200
+resistance_modifier: Lightning = Weak
+modifier: LightningDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

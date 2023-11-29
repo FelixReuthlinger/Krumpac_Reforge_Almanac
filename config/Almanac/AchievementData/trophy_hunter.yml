@@ -1,0 +1,21 @@
+unique_name: trophy_hunter
+display_name: $almanac_achievement_trophy_hunter
+sprite_name: almanac_silver_coins
+description: $almanac_achievement_trophy_hunter_desc
+lore: $almanac_trophy_hunter_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_very_resistant</color> VS <color=orange>$almanac_spirit</color>
+
+  $almanac_increase_eitr_by <color=orange>50</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Trophies
+goal: 0
+resistance_modifier: Spirit = VeryResistant
+modifier: BaseEitr
+modifier_value: 50
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

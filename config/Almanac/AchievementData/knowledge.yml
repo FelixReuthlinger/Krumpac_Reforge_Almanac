@@ -1,0 +1,18 @@
+unique_name: knowledge
+display_name: $almanac_achievement_knowledgeable
+sprite_name: almanac_necklace
+description: $almanac_achievement_knowledgeable_desc
+lore: $almanac_knowledgeable_lore
+tool_tip: $almanac_increase_carry_weight_by <color=orange>100</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Materials
+goal: 0
+resistance_modifier: ''
+modifier: MaxCarryWeight
+modifier_value: 100
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

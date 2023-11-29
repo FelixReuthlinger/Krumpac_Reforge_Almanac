@@ -1,0 +1,21 @@
+unique_name: stench
+display_name: $almanac_achievement_stench
+sprite_name: Ooze
+description: $almanac_achievement_stench_desc
+lore: $almanac_stench_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_spirit</color>
+
+  $almanac_increase_poison_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Deaths
+goal: 100
+resistance_modifier: Spirit = Weak
+modifier: PoisonDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

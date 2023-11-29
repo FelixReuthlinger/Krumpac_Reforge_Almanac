@@ -1,0 +1,18 @@
+unique_name: sailor
+display_name: $almanac_achievement_sailor
+sprite_name: SpearChitin
+description: $almanac_achievement_sailor_desc
+lore: $almanac_sailor_lore
+tool_tip: $almanac_allows_moder_power
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: DistanceSailed
+goal: 999999
+resistance_modifier: ''
+modifier: ModerPower
+modifier_value: 0
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

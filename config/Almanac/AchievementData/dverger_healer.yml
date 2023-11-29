@@ -1,0 +1,26 @@
+unique_name: dverger_healer
+display_name: $almanac_achievement_dverger_healer
+sprite_name: Lantern
+description: $almanac_achievement_dverger_healer_desc
+lore: $almanac_dverger_healer_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_elemental</color>
+
+  $almanac_dverger_heal
+
+  $almanac_reduce_health_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- DvergerStaffHeal_aoe
+- sfx_dverger_heal_start
+stop_effects:
+- DvergerStaffHeal_aoe
+- sfx_dverger_heal_finish
+achievement_type: GreydwarfShamanKills
+goal: 100
+resistance_modifier: Elemental = Weak
+modifier: BaseHP
+modifier_value: -5
+activation_animation: staff_shield
+cooldown: 30
+defeat_key: ''

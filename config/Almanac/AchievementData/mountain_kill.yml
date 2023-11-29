@@ -1,0 +1,19 @@
+unique_name: mountain_kill
+display_name: $almanac_achievement_mountain_kill
+sprite_name: DragonTear
+description: $almanac_achievement_mountain_kill_desc
+lore: $almanac_achievement_mountain_kill_lore
+tool_tip: $almanac_increase_health_by <color=orange>5</color>
+stop_message: $almanac_health_default
+start_effects:
+- fx_DvergerMage_Support_start
+stop_effects:
+- fx_DvergerMage_Mistile_die
+achievement_type: MountainCreatures
+goal: 0
+resistance_modifier: ''
+modifier: BaseHP
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

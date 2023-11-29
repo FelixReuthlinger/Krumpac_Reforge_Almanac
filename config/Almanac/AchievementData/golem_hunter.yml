@@ -1,0 +1,21 @@
+unique_name: golem_hunter
+display_name: $almanac_achievement_golem_hunter
+sprite_name: TrophySGolem
+description: $almanac_achievement_golem_hunter_desc
+lore: $almanac_golem_hunter_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_blunt</color>
+
+  $almanac_increase_frost_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: StoneGolemKills
+goal: 100
+resistance_modifier: Blunt = Weak
+modifier: FrostDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

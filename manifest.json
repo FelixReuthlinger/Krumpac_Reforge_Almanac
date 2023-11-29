@@ -1,10 +1,10 @@
 {
-  "name": "your_mod_pack_name",
-  "description": "your mod short description",
-  "version_number": "1.0.0",
-  "website_url": "your url",
+  "name": "Krumpac_Reforge_Almanac",
+  "description": "Krumpay Reforge configuration for Almanac",
+  "version_number": "3.0.0",
+  "website_url": "https://discord.gg/8bNTB7xNrd",
   "dependencies": [
-    "...",
+    "RustyMods-Almanac-2.2.8",
     "denikson-BepInExPack_Valheim-5.4.2105"
   ]
 }

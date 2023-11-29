@@ -1,0 +1,18 @@
+unique_name: lumberer
+display_name: $almanac_achievement_lumberer
+sprite_name: almanac_wood_log
+description: $almanac_achievement_lumberer_desc
+lore: $almanac_lumberer_lore
+tool_tip: $almanac_increase_chop_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: DeathByTree
+goal: 25
+resistance_modifier: ''
+modifier: ChopDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

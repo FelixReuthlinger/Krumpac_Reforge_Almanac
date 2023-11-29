@@ -1,0 +1,18 @@
+unique_name: break_a_leg
+display_name: $almanac_achievement_break_a_leg
+sprite_name: BoneFragments
+description: $almanac_achievement_break_a_leg_desc
+lore: $almanac_break_a_leg_lore
+tool_tip: $almanac_reduce_fall_damage_by <color=orange>10</color>%
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: DeathByFall
+goal: 100
+resistance_modifier: ''
+modifier: FallDamage
+modifier_value: 0.9
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

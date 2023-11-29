@@ -1,0 +1,18 @@
+unique_name: stag_slayer
+display_name: $almanac_achievement_stag_slayer
+sprite_name: TrophyEikthyr
+description: $almanac_achievement_stag_slayer_desc
+lore: $almanac_stag_slayer_lore
+tool_tip: $almanac_allows_eikthyr_power
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: EikthyrKills
+goal: 25
+resistance_modifier: ''
+modifier: EikthyrPower
+modifier_value: 0
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

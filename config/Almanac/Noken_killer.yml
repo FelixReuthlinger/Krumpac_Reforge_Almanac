@@ -1,0 +1,21 @@
+unique_name: nokken_killer
+display_name: $Krump_Boss_Monster_Nokken_Description
+sprite_name: Krump_Mat_Trophy_Nokken
+description: Hunt Down Nokken
+lore: $Krump_Dung_Meadows_Neck_Cave_Lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_resistant</color> VS <color=orange>$almanac_frost</color>
+
+  $almanac_increase_chop_damage_by <color=orange>10</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: CustomKills
+goal: 25
+resistance_modifier: Frost = Resistant
+modifier: BaseHP
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: '$Killed_Boss_Nokken'

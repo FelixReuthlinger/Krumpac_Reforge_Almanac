@@ -1,0 +1,21 @@
+unique_name: axe_master
+display_name: $almanac_achievement_axe_master
+sprite_name: AxeJotunBane
+description: $almanac_achievement_axe_master_desc
+lore: $almanac_axe_master_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_blunt</color>
+
+  $almanac_increase_melee_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Axes
+goal: 0
+resistance_modifier: Blunt = Weak
+modifier: MeleeDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

@@ -1,0 +1,21 @@
+unique_name: master_archer
+display_name: $almanac_achievement_master_archer
+sprite_name: almanac_bow
+description: $almanac_achievement_master_archer_desc
+lore: $almanac_master_archer_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_poison</color>
+
+  $almanac_increase_projectile_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: Bows
+goal: 0
+resistance_modifier: Poison = Weak
+modifier: RangedDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

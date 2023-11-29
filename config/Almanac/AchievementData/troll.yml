@@ -1,0 +1,21 @@
+unique_name: troll
+display_name: $almanac_achievement_troll
+sprite_name: TrophyForestTroll
+description: $almanac_achievement_troll_desc
+lore: $almanac_troll_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_blunt</color>
+
+  $almanac_increase_health_regen_by <color=orange>10</color>%
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: TrollKills
+goal: 200
+resistance_modifier: Blunt = Weak
+modifier: HealthRegen
+modifier_value: 1.1
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

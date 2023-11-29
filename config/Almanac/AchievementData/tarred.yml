@@ -1,0 +1,21 @@
+unique_name: tarred
+display_name: $almanac_achievement_tarred
+sprite_name: Tar
+description: $almanac_achievement_tarred_desc
+lore: $almanac_tarred_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_poison</color>
+
+  $almanac_increase_speed_by <color=orange>10</color>%
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: TarBlobKills
+goal: 100
+resistance_modifier: Poison = Weak
+modifier: Speed
+modifier_value: 1.1
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

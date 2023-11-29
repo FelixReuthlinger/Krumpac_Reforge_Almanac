@@ -1,0 +1,26 @@
+unique_name: healer
+display_name: $almanac_achievement_healer
+sprite_name: TrophyGreydwarfShaman
+description: $almanac_achievement_healer_desc
+lore: $almanac_healer_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_slash</color>
+
+  $almanac_greydwarf_shaman_heal
+
+  $almanac_reduce_health_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- shaman_heal_aoe
+- sfx_greydwarf_shaman_heal
+stop_effects:
+- shaman_heal_aoe
+- sfx_greydwarf_shaman_heal
+achievement_type: GreydwarfShamanKills
+goal: 100
+resistance_modifier: Slash = Weak
+modifier: BaseHP
+modifier_value: -5
+activation_animation: fishingrod_throw
+cooldown: 30
+defeat_key: ''

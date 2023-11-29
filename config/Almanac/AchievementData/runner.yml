@@ -1,0 +1,21 @@
+unique_name: runner
+display_name: $almanac_achievement_runner
+sprite_name: almanac_scroll_map
+description: $almanac_achievement_runner_desc
+lore: $almanac_runner_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_pierce</color>
+
+  $almanac_reduce_stamina_drain_by <color=orange>50</color>%
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: DistanceRan
+goal: 100000
+resistance_modifier: Pierce = Weak
+modifier: RunStaminaDrain
+modifier_value: 0.5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

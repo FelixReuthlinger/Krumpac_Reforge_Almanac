@@ -1,0 +1,21 @@
+unique_name: bonemass_killer
+display_name: $almanac_achievement_bonemass_killer
+sprite_name: TrophyBonemass
+description: $almanac_achievement_bonemass_killer_desc
+lore: $almanac_bonemass_killer_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_spirit</color>
+
+  $almanac_increase_poison_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: BonemassKills
+goal: 25
+resistance_modifier: Spirit = Weak
+modifier: PoisonDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''

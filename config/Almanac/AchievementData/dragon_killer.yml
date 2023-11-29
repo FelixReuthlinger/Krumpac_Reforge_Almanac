@@ -1,0 +1,21 @@
+unique_name: dragon_killer
+display_name: $almanac_achievement_dragon_killer
+sprite_name: TrophyDragonQueen
+description: $almanac_achievement_dragon_killer_desc
+lore: $almanac_dragon_killer_lore
+tool_tip: >-
+  $almanac_modify_damage_by <color=orange>$almanac_weak</color> VS <color=orange>$almanac_fire</color>
+
+  $almanac_increase_frost_damage_by <color=orange>5</color>
+stop_message: $almanac_removed_achievement_power
+start_effects:
+- sfx_coins_placed
+stop_effects: 
+achievement_type: ModerKills
+goal: 25
+resistance_modifier: Fire = Weak
+modifier: FrostDMG
+modifier_value: 5
+activation_animation: gpower
+cooldown: 0
+defeat_key: ''
