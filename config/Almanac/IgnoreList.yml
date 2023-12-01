@@ -537,6 +537,8 @@ wood_yggdrasil_stack
 coal_pile
 piece_sharpstakes
 piece_trap_troll
+fuling_trap
+piece_turret
 stake_wall
 fuling_turret
 piece_dvergr_stake_wall
@@ -814,4 +816,14 @@ Krump_Spawner_Treasure_Swamps
 Krump_Spawner_Treasure_BlackForest
 Krump_Spawner_Treasure_Meadows
 
+iron_wall_1x1
+wood_stair
+OLD_wood_roof
+dvergrprops_wood_floor
+blackmarble_stair
+OLD_wood_roof_top
+blackmarble_out_2
+blackmarble_creep_slope_inverted_2x2x1
+blackmarble_1x1
+blackmarble_2x2x1
 
