@@ -16,11 +16,11 @@ start_effects:
 stop_effects:
 - shaman_heal_aoe
 - sfx_greydwarf_shaman_heal
-achievement_type: GreydwarfShamanKills
+achievement_type: CustomKills
 goal: 100
 resistance_modifier: Slash = Weak
 modifier: BaseHP
 modifier_value: -5
 activation_animation: fishingrod_throw
 cooldown: 30
-defeat_key: ''
+defeat_key: 'defeated_krump_monsters_meadows_greydwarf_shaman'
