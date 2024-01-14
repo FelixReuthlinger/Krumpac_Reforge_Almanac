@@ -826,4 +826,13 @@ blackmarble_out_2
 blackmarble_creep_slope_inverted_2x2x1
 blackmarble_1x1
 blackmarble_2x2x1
+dverger_guardstone
+TreasureChest_trollcave
 
+# not active (impossible to craft)
+D_Alchemy_Library
+D_Oven
+D_Fermenter2
+D_Alchemy_Altar
+D_Cutting_Table1
+Krump_CS_Artisan_Bellow
